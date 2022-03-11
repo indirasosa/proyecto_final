@@ -38,7 +38,7 @@
                         </li>
                         </li>
                 </ul>
-                <form class="d-flex">
+                <form class="d-flex col-md-4">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                     <button class="btn btn-light" type="submit">Buscar</button>
                 </form>
@@ -51,17 +51,17 @@
     <!--Carrucel-->
         <div class="container-fluid bg-dark p-4">
             <div class="row bg-dark">
-                <div class="col-1 col-sm-1 col-md-2"></div>
-                <div id="carouselExampleControls" class="carousel slide col-12 col-sm-10 col-md-8" data-bs-ride="carousel">
+                <div class="col-1 col-lg-2"></div>
+                <div id="carouselExampleControls" class="carousel slide col-10 col-lg-8" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="../brutality-main/imagenes/dante-1.jpg" class="d-block w-100" alt="...">
+                        <img src="../brutality-main/imagenes/dante-1.jpg" class="d-block w-100" alt="Modelo con remera Brutality">
                         </div>
                         <div class="carousel-item">
-                        <img src="../brutality-main/imagenes/dante-2.jpg" class="d-block w-100" alt="...">
+                        <img src="../brutality-main/imagenes/dante-2.jpg" class="d-block w-100" alt="Modelo con remera Brutality">
                         </div>
                         <div class="carousel-item">
-                        <img src="../brutality-main/imagenes/dante-3.jpg" class="d-block w-100" alt="...">
+                        <img src="../brutality-main/imagenes/dante-3.jpg" class="d-block w-100" alt="Modelo con remera Brutality">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -73,15 +73,14 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                     </div>
-                <div class="col-1 col-sm-1 col-md-2"></div>
+                <div class="col-1 col-lg-2"></div>
             </div>
-        </div>
-        
+        </div>       
     <!--fin carrucel-->
     <!--Remeras-->
     <section class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4 my-3">
-            <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 my-3 mx-3">
+            <div class="col d-flex justify-content-around">
                 <div class="card mx-auto my-2 p-2">
                 <img src="./imagenes/reme lagwagon.jpg" class="card-img-top" alt="Remera Brutlag">
                 <div class="card-body">
@@ -91,7 +90,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-around">
                 <div class="card mx-auto my-2 p-2">
                 <img src="./imagenes/reme milo black.jpg" class="card-img-top" alt="Remera Trashdes negra">
                 <div class="card-body">
@@ -101,7 +100,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col d-flex justify-content-around">
                 <div class="card mx-auto my-2 p-2">
                 <img src="./imagenes/reme_box.jpg" class="card-img-top" alt="Remera The box">
                 <div class="card-body">
@@ -111,6 +110,7 @@
                 </div>
                 </div>
             </div>
+        </div>
     </section>
     <!--fin Productos destacados-->
     </main>
